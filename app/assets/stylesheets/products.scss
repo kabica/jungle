@@ -50,6 +50,17 @@ main section.categories-show {
         border-bottom-left-radius: 20px;
         font-size: 0.8em;
       }
+      aside.qStatus {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 8px;
+        color: white;
+        background-color: rgb(180, 76, 76);
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 20px;
+        font-size: 1.1em;
+      }
 
       &:hover {
 
