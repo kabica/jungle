@@ -1,6 +1,6 @@
 class CartsController < ApplicationController
 
-  def show
+  def show1
   end
 
   def add_item
