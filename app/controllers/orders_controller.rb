@@ -2,7 +2,10 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @line_items = LineItem.joins(:product).where(order_id: params[:id])
   end
+
+
 
   def create
     charge = perform_stripe_charge
@@ -19,7 +22,7 @@ class OrdersController < ApplicationController
     redirect_to cart_path, flash: { error: e.message }
   end
 
-  private
+  private   
 
   def empty_cart!
     # empty hash means no products in cart :)
