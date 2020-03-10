@@ -4,13 +4,20 @@ RSpec.feature "AddToCart", type: :feature, js: true do
 
   # SETUP
   before :each do
-    
+    @category = Category.create! name: 'Apparel'
+
+    1.times do |n|
+      @category.products.create!(
+      name:  Faker::Hipster.sentence(3),
+      description: Faker::Hipster.paragraph(4),
+      image: open_asset('apparel1.jpg'),
+      quantity: 10,
+      price: 64.99
+      )
+    end
   end
 
   scenario "They see all products" do
-    # create new user
-    @user = User.create! email: 'kev@gmail.com', password: 'alex123cool'
-
     # visit page
     visit root_path
 
@@ -25,6 +32,6 @@ RSpec.feature "AddToCart", type: :feature, js: true do
 
     # commented out b/c it's for debugging only
     save_and_open_screenshot
- 
+
   end
 end
