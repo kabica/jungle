@@ -6,7 +6,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
     <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.40.06%20PM.png?raw=true" alt="Logo">
     <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.05.28%20PM.png?raw=true" alt="Logo">
     <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.40.50%20PM.png?raw=true" alt="Logo">
-    <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.41.07%20PM.png?raw=true" alt="Logo">
+    <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.49.22%20PM.png?raw=true" alt="Logo">
  
     
 </p>
