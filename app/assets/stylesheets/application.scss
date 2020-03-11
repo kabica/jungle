@@ -9,12 +9,18 @@
 // Global
 body {
   padding-top: 70px;
+  background-image: image-url('grad.png'); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 // Bootstrap adjustments
 form.button_to {
   display: inline;
 }
+
+
 
 .signup {
   display: flex;
