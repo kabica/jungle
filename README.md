@@ -1,6 +1,9 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungle allows users to browse through a database of goods available for purchase. These goods are categorzied and users can further refine their selection accordingly. Dynamic alerts appear to inform users of currently active sales, the price of each product and an alert badge when an item is sold out. 
+
+Additionally, there is login authentication for new and returning users + authentication for administartive access (ie. creating new categories and populating them with products of your choosing!)
 
 <p align="center">
     <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.40.06%20PM.png?raw=true" alt="Logo">
