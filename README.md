@@ -3,7 +3,9 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 Jungle allows users to browse through a database of goods available for purchase. These goods are categorzied and users can further refine their selection accordingly. Dynamic alerts appear to inform users of currently active sales, the price of each product and an alert badge when an item is sold out. 
 
-Additionally, there is login authentication for new and returning users + authentication for administartive access (ie. creating new categories and populating them with products of your choosing!)
+Additionally, there is login authentication for new and returning users + authentication for administartive access (ie. creating new categories and populating them with products of your choosing!). As a user adds items to her cart, she will be able to see the current count in the top corer of the page. When she is ready to checkout, the cart summary will be displayed along with Stripe as a payment processing method. 
+
+Finally, when a successful payment goes through, a summary of the purchse is displayed for the user to view along with the option to continue shopping. Jungle utilizes Active-Records and ERB templating for front and back-end logic. 
 
 <p align="center">
     <img src="https://github.com/kabica/jungle/blob/master/app/assets/images/Screen%20Shot%202020-03-11%20at%202.40.06%20PM.png?raw=true" alt="Logo">
